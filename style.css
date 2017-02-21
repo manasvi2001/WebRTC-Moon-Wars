@@ -1,0 +1,19 @@
+canvas {
+	z-index: 1;
+}
+
+#input-button1 {
+	position: absolute;
+	z-index: 2;
+	top: 520px;
+	left: 400px;
+	transform: translateY(-50%);
+}
+
+#input-button2 {
+	position: absolute;
+	z-index: 2;
+	top: 520px;
+	left: 600px;
+	transform: translateY(-50%);
+}
