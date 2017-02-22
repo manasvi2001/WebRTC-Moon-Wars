@@ -2,18 +2,56 @@ canvas {
 	z-index: 1;
 }
 
-#input-button1 {
+#Player1Score {
+	color: #DA0000;
+	font-family: Georgia;
+	font-size: 500%;
 	position: absolute;
+	top: 40px;
+	left: 230px;
 	z-index: 2;
-	top: 520px;
-	left: 400px;
-	transform: translateY(-50%);
 }
 
-#input-button2 {
+#Player2Score {
+	color: #004CB3;
+	font-family: Georgia;
+	font-size: 500%;
 	position: absolute;
+	top: 40px;
+	left: 730px;
 	z-index: 2;
-	top: 520px;
-	left: 600px;
-	transform: translateY(-50%);
+}
+
+#PlayerTeam {
+	color: #fff;
+	font-family: Georgia;
+	font-size: 200%;
+	position: absolute;
+	top: 50px;
+	left: 500px;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+
+#WhoseTurn {
+	color: #fff;
+	font-family: Georgia;
+	font-size: 200%;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+
+#Controls {
+	color: #fff;
+	font-family: Georgia;
+	font-weight: 500;
+	position: absolute;
+	max-width: 1000px;
+	top: 10px;
+	left: 500px;
+	transform: translateX(-50%);
+	z-index: 2;
 }
