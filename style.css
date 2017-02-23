@@ -7,7 +7,7 @@ canvas {
 	font-family: Georgia;
 	font-size: 500%;
 	position: absolute;
-	top: 40px;
+	top: 50px;
 	left: 230px;
 	z-index: 2;
 }
@@ -17,7 +17,7 @@ canvas {
 	font-family: Georgia;
 	font-size: 500%;
 	position: absolute;
-	top: 40px;
+	top: 50px;
 	left: 730px;
 	z-index: 2;
 }
@@ -27,7 +27,7 @@ canvas {
 	font-family: Georgia;
 	font-size: 200%;
 	position: absolute;
-	top: 50px;
+	top: 60px;
 	left: 500px;
 	transform: translateX(-50%);
 	z-index: 2;
@@ -38,7 +38,7 @@ canvas {
 	font-family: Georgia;
 	font-size: 200%;
 	position: absolute;
-	top: 100px;
+	top: 110px;
 	left: 500px;
 	transform: translateX(-50%);
 	z-index: 2;
