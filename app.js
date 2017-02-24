@@ -8,7 +8,7 @@
 		backImg;
 
 	// init channel name
-	channel_name = "MyGame-19";
+	channel_name = "MyGame-765";
 
 	// init function
 	function init() {
@@ -264,7 +264,7 @@
 	// Move Asteroid and collision detection
 	function detectCollision(x1,y1,r1,x2,y2,r2) {
 		var dist2 = ((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
-		if(dist2 <= ((r2-r1)*(r2-r1)))
+		if(dist2 <= ((r2+r1)*(r2+r1)))
 			return true;
 		return false;
 	}
